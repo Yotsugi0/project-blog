@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "oss",
+      "type": "com.example.service.impl.OssUploadService",
+      "sourceType": "com.example.service.impl.OssUploadService"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.example.service.impl.OssUploadService"
+    },
+    {
+      "name": "oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.example.service.impl.OssUploadService"
+    },
+    {
+      "name": "oss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.service.impl.OssUploadService"
+    },
+    {
+      "name": "oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.example.service.impl.OssUploadService"
+    }
+  ],
+  "hints": []
+}

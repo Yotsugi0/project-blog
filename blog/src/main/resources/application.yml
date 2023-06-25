@@ -10,11 +10,9 @@ spring:
   redis:
     #数据库索引
     database: 0
-#    host: 127.0.0.1
-    host: 192.168.247.100
-    port: 6379
-#    password:
-    password: 123456
+    host:
+    port:
+    password:
   servlet:
     multipart:
       max-file-size: 20MB

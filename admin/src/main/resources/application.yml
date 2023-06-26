@@ -9,8 +9,8 @@ spring:
   redis:
     #数据库索引
     database: 0
-    host:
-    port:
+    host: 127.0.0.1
+    port: 6379
     password:
   servlet:
     multipart:
@@ -18,9 +18,9 @@ spring:
       max-request-size: 50MB
 
 mybatis-plus:
-#  configuration:
-#    # 日志
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #  configuration:
+  #    # 日志
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
       logic-delete-field: delFlag
@@ -29,7 +29,7 @@ mybatis-plus:
       id-type: auto
 
 oss:
-  endpoint:
-  accessKeyId:
-  accessKeySecret:
-  bucketName:
+  endpoint: https://oss-cn-hangzhou.aliyuncs.com
+  accessKeyId: yourAccessKeyId
+  accessKeySecret: yourAccessKeySecret
+  bucketName: examplebucket
